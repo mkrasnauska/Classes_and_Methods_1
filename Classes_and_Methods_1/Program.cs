@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace ClassesAndMethodsAssignment1
+namespace Classes_and_Methods_1
 {
     class Program
     {
@@ -14,8 +14,8 @@ namespace ClassesAndMethodsAssignment1
             Console.WriteLine("70/3 dec  division is result is : " + c);
 
 
-            string x = Math.MyDivString("1234", "555");
-            Console.WriteLine("1234 + 555 string is result is : " + Convert.ToInt32(x));
+            int x = Math.MyDivString("1234", "555");
+            Console.WriteLine("1234 + 555 string is result is : " +x);
             Console.Read();
         }
     }

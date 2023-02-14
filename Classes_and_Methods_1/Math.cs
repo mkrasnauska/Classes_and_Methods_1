@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClassesAndMethodsAssignment1
+namespace Classes_and_Methods_1
 {
     public class Math
     {
@@ -12,9 +12,9 @@ namespace ClassesAndMethodsAssignment1
         {
             return Convert.ToInt32(a / b);
         }
-        public static string MyDivString(string a, string b)
+        public static int MyDivString(string a, string b)
         {
-            return a + b;
+            return Convert.ToInt32(a) + Convert.ToInt32(b);
         }
 
 
